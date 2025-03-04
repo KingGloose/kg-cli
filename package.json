@@ -9,16 +9,12 @@
     "cs:version": "changeset version",
     "cs:publish": "changeset publish --no-git-tag"
   },
-  "keywords": [
-    "cli"
-  ],
+  "keywords": [],
   "author": "kinggloose",
   "license": "ISC",
   "devDependencies": {
     "@changesets/cli": "^2.28.1",
-    "@types/node": "^22.13.9",
     "prettier-plugin-organize-imports": "^4.1.0",
-    "prettier-plugin-packagejson": "^2.5.10",
-    "typescript": "^5.8.2"
+    "prettier-plugin-packagejson": "^2.5.10"
   }
 }

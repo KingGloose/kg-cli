@@ -1,0 +1,16 @@
+{
+  "name": "@kg-cli/logger",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./src/index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@kg-cli/config": "workspace:^",
+    "chalk": "^5.4.1",
+    "winston": "^3.17.0"
+  }
+}

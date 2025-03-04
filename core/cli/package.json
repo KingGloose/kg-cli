@@ -1,0 +1,28 @@
+{
+  "name": "@kg-cli/cli",
+  "version": "1.4.0",
+  "description": "",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "build:watch": "npx tsc -w"
+  },
+  "bin": {
+    "kg-cli": "./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@kg-cli/config": "workspace:^",
+    "@kg-cli/logger": "workspace:^",
+    "dotenv": "^16.4.7",
+    "import-local": "^3.2.0",
+    "minimist": "^1.2.8",
+    "root-check": "^2.0.0"
+  }
+}
