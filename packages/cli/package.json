@@ -1,0 +1,22 @@
+{
+  "name": "@kg-cli/cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "bin": {
+    "kg-cli": "./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@kg-cli/core": "workspace:^"
+  }
+}
