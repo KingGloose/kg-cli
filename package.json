@@ -4,7 +4,10 @@
   "description": "this is kinggloose private node-cli",
   "scripts": {
     "build": "pnpm -r --no-sort exec npm run build",
-    "build:watch": "pnpm -r --no-sort exec npm run build:watch"
+    "build:watch": "pnpm -r --no-sort exec npm run build:watch",
+    "cs:add": "npm run build && changeset add",
+    "cs:version": "changeset version",
+    "cs:publish": "changeset publish --no-git-tag"
   },
   "keywords": [
     "cli"
