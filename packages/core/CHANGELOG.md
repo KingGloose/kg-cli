@@ -1,5 +1,11 @@
 # @kg-cli/core
 
+## 1.4.0
+
+### Minor Changes
+
+- new div
+
 ## 1.3.0
 
 ### Minor Changes
