@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "this is kinggloose private node-cli",
   "scripts": {
-    "build:all": "pnpm -r --no-sort exec npm run build"
+    "build:all": "pnpm -r --no-sort exec npm run build",
+    "build:watch:all": "pnpm -r --no-sort exec npm run build:watch"
   },
   "keywords": [
     "cli"

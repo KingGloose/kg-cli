@@ -1,5 +1,5 @@
 #! /usr/bin/env node
 
-import { add } from "@kg-cli/core";
+import { add, sub } from "@kg-cli/core";
 
-console.log(add(1, 2));
+console.log(add(2, 2), sub(3, 2));
