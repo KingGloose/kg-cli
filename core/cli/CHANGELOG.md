@@ -1,5 +1,17 @@
 # @kg-cli/core
 
+## 1.5.0
+
+### Minor Changes
+
+- new feat
+
+### Patch Changes
+
+- Updated dependencies
+  - @kg-cli/logger@1.1.0
+  - @kg-cli/config@1.1.0
+
 ## 1.4.0
 
 ### Minor Changes
